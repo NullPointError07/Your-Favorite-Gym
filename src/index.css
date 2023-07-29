@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+:root {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+}
+
+button {
+    color: #FFF;
+    display: inline-flex;
+    padding: 19px 28px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--linear, linear-gradient(90deg, #10d763 20%, #1096d5 100%));
+}
