@@ -7,12 +7,17 @@ import Home from "./Components/Home/Home.jsx";
 import Statistics from "./Components/Statistics/Statistics.jsx";
 import AppliedPackages from "./Components/Applied Packages/AppliedPackages.jsx";
 import Blog from "./Components/Blog/Blog.jsx";
+import FrontPage from "./Components/FrontPage/FrontPage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
     children: [
+      {
+        path: "/",
+        element: <FrontPage></FrontPage>,
+      },
       {
         path: "Statistics",
         element: <Statistics></Statistics>,
