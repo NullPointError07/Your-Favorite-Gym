@@ -9,6 +9,10 @@
     font-weight: 700;
 }
 
+nav a.active {
+    text-decoration: underline;
+}
+
 button {
     color: #FFF;
     display: inline-flex;
