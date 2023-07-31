@@ -17,7 +17,7 @@ const FrontPageSection = () => {
         </p>
       </div>
 
-      <div className="flex mt-8">
+      <div className="grid grid-cols-4 gap-4">
         <Box
           icon={faDumbbell}
           heading="Workout"

@@ -32,7 +32,7 @@ const FrontPage = () => {
         </div>
       </div>
       <FrontPageSection></FrontPageSection>
-      <AvailablePakcages data={data}></AvailablePakcages>
+      <AvailablePakcages packages={data.fitness_programs}></AvailablePakcages>
     </div>
   );
 };
