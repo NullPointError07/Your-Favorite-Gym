@@ -5,6 +5,7 @@
       "program_type": "Strength Training",
       "gym_company_name": "FitZone Fitness Center",
       "duration_weeks": [12, 24],
+      "program_level": ["classic", "pro"],
       "cost": [300, 500],
       "location": "123 Main Street, Cityville",
       "training_description": "The strength training and cardio program at FitZone Fitness Center is a comprehensive 12-week or 24-week fitness journey designed to build muscular strength, improve cardiovascular fitness, and enhance overall physical performance...",
@@ -20,7 +21,6 @@
       ],
       "diet_description": "In addition to the tailored fitness program, participants will receive comprehensive diet recommendations aimed at optimizing performance and supporting overall well-being...",
       "goal_achievement_years": 1,
-      "program_level": ["classic", "pro"],
       "logo": "fitzone_logo.png"
     },
     {
@@ -28,6 +28,7 @@
       "program_type": "Cardio",
       "gym_company_name": "FitLife Gym",
       "duration_weeks": [8, 12],
+      "program_level": ["classic", "pro"],
       "cost": [200, 350],
       "location": "456 Oak Avenue, Townsville",
       "training_description": "The cardio program at FitLife Gym offers participants an intensive 8-week or 12-week experience focused on improving cardiovascular endurance and overall stamina. This high-energy program incorporates a diverse range of cardiovascular exercises, such as running, cycling, and HIIT workouts, to challenge participants and elevate their fitness levels...",
@@ -40,7 +41,6 @@
       ],
       "diet_description": "To complement the cardio training, participants will receive a customized diet plan tailored to individual needs and fitness objectives...",
       "goal_achievement_years": 0.5,
-      "program_level": ["classic", "pro"],
       "logo": "fitlife_logo.png"
     },
     {
@@ -48,6 +48,7 @@
       "program_type": "CrossFit",
       "gym_company_name": "PowerFit Studio",
       "duration_weeks": [16, 20],
+      "program_level": ["classic", "pro"],
       "cost": [450, 600],
       "location": "789 Elm Street, Villageland",
       "training_description": "The CrossFit program at PowerFit Studio is a 16-week or 20-week high-intensity fitness regimen designed to improve strength, conditioning, and overall athletic performance. This comprehensive program combines elements of weightlifting, gymnastics, and cardiovascular exercises, challenging participants both physically and mentally...",
@@ -60,7 +61,6 @@
       ],
       "diet_description": "Nutrition plays a crucial role in the success of the CrossFit program, and participants will receive personalized dietary guidance to fuel their high-intensity training and support recovery...",
       "goal_achievement_years": 2,
-      "program_level": ["classic", "pro"],
       "logo": "powerfit_logo.png"
     },
     {
@@ -68,6 +68,7 @@
       "program_type": "Yoga",
       "gym_company_name": "ZenYoga Studio",
       "duration_weeks": [6, 10],
+      "program_level": ["beginner", "advanced"],
       "cost": [150, 250],
       "location": "321 Zen Avenue, Serenity City",
       "training_description": "The yoga program at ZenYoga Studio offers participants a 6-week or 10-week transformative journey focused on enhancing flexibility, balance, and mental well-being. Led by experienced yoga instructors, the program includes various yoga styles, such as Hatha, Vinyasa, and Yin, catering to participants of all skill levels...",
@@ -80,7 +81,6 @@
       ],
       "diet_description": "Yoga and mindfulness extend beyond the mat, and participants will receive dietary guidance that complements their practice. The diet plan emphasizes nourishing foods that support overall well-being and mental clarity. Participants will be encouraged to embrace mindful eating, savoring each bite and fostering a positive relationship with food...",
       "goal_achievement_years": 0.5,
-      "program_level": ["beginner", "advanced"],
       "logo": "zenyoga_logo.png"
     },
     {
@@ -88,6 +88,7 @@
       "program_type": "Dance Fitness",
       "gym_company_name": "DanceXtreme Studio",
       "duration_weeks": [10, 16],
+      "program_level": ["open", "champion"],
       "cost": [180, 300],
       "location": "567 Groove Street, Danceville",
       "training_description": "The dance fitness program at DanceXtreme Studio is a 10-week or 16-week high-energy dance experience designed to combine the fun of dance with the benefits of a full-body workout. Participants will groove to the rhythm of various dance styles, including hip-hop, salsa, and dance aerobics, creating a dynamic and enjoyable fitness journey...",
@@ -101,7 +102,6 @@
       ],
       "diet_description": "Dance fitness celebrates movement and self-expression, and the diet plan complements the vibrant energy of dance. Participants will receive dietary guidance that focuses on balanced nutrition and maintaining energy levels. Emphasizing hydration and nutrient-rich foods, participants will fuel their bodies to dance with passion and enthusiasm...",
       "goal_achievement_years": 0.5,
-      "program_level": ["open", "champion"],
       "logo": "dancextreme_logo.png"
     },
     {
@@ -109,7 +109,8 @@
       "program_type": "Pilates",
       "gym_company_name": "CoreFlex Studio",
       "duration_weeks": [8, 12],
-      "cost": [250, 400],
+      "program_level": ["beginner", "intermediate", "advanced"],
+      "cost": [250, 400, 600],
       "location": "789 Pilates Place, Flexington",
       "training_description": "The Pilates program at CoreFlex Studio is an 8-week or 12-week journey focused on strengthening the core, improving flexibility, and enhancing body alignment. Pilates exercises engage the mind and body, promoting a sense of balance and harmony throughout the program...",
       "included_features": [
@@ -122,7 +123,6 @@
       ],
       "diet_description": "Pilates fosters mindful movement, and participants will receive dietary guidance that aligns with the principles of balance and well-being. The diet plan emphasizes nourishing foods that support energy and recovery. Participants will be encouraged to explore mindful eating practices that complement the mind-body connection...",
       "goal_achievement_years": 0.5,
-      "program_level": ["beginner", "intermediate", "advanced"],
       "logo": "coreflex_logo.png"
     },
     {
@@ -130,6 +130,7 @@
       "program_type": "HIIT",
       "gym_company_name": "HighIntensity Fitness",
       "duration_weeks": [6, 8],
+      "program_level": ["beginner", "advanced"],
       "cost": [180, 250],
       "location": "555 Intensity Road, Sprintville",
       "training_description": "The HIIT program at HighIntensity Fitness offers participants a 6-week or 8-week high-intensity interval training experience designed to torch calories and improve cardiovascular fitness. HIIT workouts incorporate bursts of intense exercise followed by short recovery periods, optimizing fat burning and boosting metabolism...",
@@ -143,7 +144,6 @@
       ],
       "diet_description": "HIIT requires proper nutrition to fuel intense workouts and support recovery. Participants will receive dietary guidance focused on balanced macronutrient intake and proper hydration. Emphasizing nutrient-dense foods and adequate protein, the diet plan will help participants maximize their HIIT performance...",
       "goal_achievement_years": 0.25,
-      "program_level": ["beginner", "advanced"],
       "logo": "highintensity_logo.png"
     },
     {
@@ -151,7 +151,8 @@
       "program_type": "Swimming",
       "gym_company_name": "AquaFit Swim Club",
       "duration_weeks": [10, 16],
-      "cost": [280, 450],
+      "program_level": ["beginner", "intermediate", "advanced"],
+      "cost": [280, 450, 600],
       "location": "987 Aqua Lane, Swimmington",
       "training_description": "The swimming program at AquaFit Swim Club offers participants a 10-week or 16-week aquatic journey focused on improving swimming techniques, stamina, and overall aquatic fitness. Participants will experience various swim strokes and drills, allowing them to explore the joy of swimming while working on their fitness goals...",
       "included_features": [
@@ -163,7 +164,6 @@
       ],
       "diet_description": "Swimming demands proper nutrition to support endurance and recovery in the water. Participants will receive dietary guidance aimed at providing the energy needed for swim workouts and promoting hydration. Emphasizing balanced meals and healthy snacks, the diet plan will support participants' aquatic performance...",
       "goal_achievement_years": 0.5,
-      "program_level": ["beginner", "intermediate", "advanced"],
       "logo": "aquafit_logo.png"
     },
     {
@@ -171,7 +171,8 @@
       "program_type": "Martial Arts",
       "gym_company_name": "Warrior's Dojo",
       "duration_weeks": [12, 20],
-      "cost": [400, 600],
+      "program_level": ["beginner", "intermediate", "advanced"],
+      "cost": [400, 600, 800],
       "location": "111 Warrior Way, Martialtown",
       "training_description": "The martial arts program at Warrior's Dojo is a 12-week or 20-week immersive journey into the world of martial arts, emphasizing discipline, self-defense, and personal growth. Participants will experience various martial arts styles, such as Karate, Taekwondo, and Brazilian Jiu-Jitsu, under the guidance of experienced instructors...",
       "included_features": [
@@ -183,7 +184,6 @@
       ],
       "diet_description": "Martial arts training requires a balanced diet that supports physical and mental performance. Participants will receive dietary guidance focused on optimal energy levels and promoting lean muscle. Emphasizing a blend of macronutrients, the diet plan will fuel participants' martial arts journey...",
       "goal_achievement_years": 1,
-      "program_level": ["beginner", "intermediate", "advanced"],
       "logo": "warriorsdojo_logo.png"
     },
     {
@@ -191,6 +191,7 @@
       "program_type": "Barre",
       "gym_company_name": "Barre Bliss Studio",
       "duration_weeks": [8, 12],
+      "program_level": ["beginner", "advanced"],
       "cost": [230, 350],
       "location": "456 Barre Boulevard, Balletown",
       "training_description": "The barre program at Barre Bliss Studio offers participants an 8-week or 12-week experience blending ballet-inspired movements with elements of Pilates and yoga. Participants will strengthen and tone their muscles, improve flexibility, and enhance posture, creating a balanced and graceful physique...",
@@ -203,7 +204,6 @@
       ],
       "diet_description": "Barre training requires a nourishing diet that supports lean muscle and flexibility. Participants will receive dietary guidance focused on balanced nutrition and proper hydration. Emphasizing nutrient-rich foods and flexibility-enhancing nutrients, the diet plan will complement participants' barre practice...",
       "goal_achievement_years": 0.25,
-      "program_level": ["beginner", "advanced"],
       "logo": "barrebliss_logo.png"
     }
   ]
