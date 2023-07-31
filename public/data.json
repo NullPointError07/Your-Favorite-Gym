@@ -21,7 +21,7 @@
       ],
       "diet_description": "In addition to the tailored fitness program, participants will receive comprehensive diet recommendations aimed at optimizing performance and supporting overall well-being...",
       "goal_achievement_years": 1,
-      "logo": "fitzone_logo.png"
+      "logo": "/src/assets/Strength Training.jpg"
     },
     {
       "id": 2,
@@ -41,7 +41,7 @@
       ],
       "diet_description": "To complement the cardio training, participants will receive a customized diet plan tailored to individual needs and fitness objectives...",
       "goal_achievement_years": 0.5,
-      "logo": "fitlife_logo.png"
+      "logo": "/src/assets/Cardio.jpg"
     },
     {
       "id": 3,
@@ -61,7 +61,7 @@
       ],
       "diet_description": "Nutrition plays a crucial role in the success of the CrossFit program, and participants will receive personalized dietary guidance to fuel their high-intensity training and support recovery...",
       "goal_achievement_years": 2,
-      "logo": "powerfit_logo.png"
+      "logo": "/src/assets/CrossFit.jpg"
     },
     {
       "id": 4,
@@ -81,7 +81,7 @@
       ],
       "diet_description": "Yoga and mindfulness extend beyond the mat, and participants will receive dietary guidance that complements their practice. The diet plan emphasizes nourishing foods that support overall well-being and mental clarity. Participants will be encouraged to embrace mindful eating, savoring each bite and fostering a positive relationship with food...",
       "goal_achievement_years": 0.5,
-      "logo": "zenyoga_logo.png"
+      "logo": "/src/assets/Yoga.jpg"
     },
     {
       "id": 5,
@@ -102,7 +102,7 @@
       ],
       "diet_description": "Dance fitness celebrates movement and self-expression, and the diet plan complements the vibrant energy of dance. Participants will receive dietary guidance that focuses on balanced nutrition and maintaining energy levels. Emphasizing hydration and nutrient-rich foods, participants will fuel their bodies to dance with passion and enthusiasm...",
       "goal_achievement_years": 0.5,
-      "logo": "dancextreme_logo.png"
+      "logo": "/src/assets/Dance Fitness.png"
     },
     {
       "id": 6,
@@ -123,7 +123,7 @@
       ],
       "diet_description": "Pilates fosters mindful movement, and participants will receive dietary guidance that aligns with the principles of balance and well-being. The diet plan emphasizes nourishing foods that support energy and recovery. Participants will be encouraged to explore mindful eating practices that complement the mind-body connection...",
       "goal_achievement_years": 0.5,
-      "logo": "coreflex_logo.png"
+      "logo": "/src/assets/Pilates.jpg"
     },
     {
       "id": 7,
@@ -144,7 +144,7 @@
       ],
       "diet_description": "HIIT requires proper nutrition to fuel intense workouts and support recovery. Participants will receive dietary guidance focused on balanced macronutrient intake and proper hydration. Emphasizing nutrient-dense foods and adequate protein, the diet plan will help participants maximize their HIIT performance...",
       "goal_achievement_years": 0.25,
-      "logo": "highintensity_logo.png"
+      "logo": "/src/assets/HIIT.png"
     },
     {
       "id": 8,
@@ -164,7 +164,7 @@
       ],
       "diet_description": "Swimming demands proper nutrition to support endurance and recovery in the water. Participants will receive dietary guidance aimed at providing the energy needed for swim workouts and promoting hydration. Emphasizing balanced meals and healthy snacks, the diet plan will support participants' aquatic performance...",
       "goal_achievement_years": 0.5,
-      "logo": "aquafit_logo.png"
+      "logo": "/src/assets/Swimming.jpg"
     },
     {
       "id": 9,
@@ -184,7 +184,7 @@
       ],
       "diet_description": "Martial arts training requires a balanced diet that supports physical and mental performance. Participants will receive dietary guidance focused on optimal energy levels and promoting lean muscle. Emphasizing a blend of macronutrients, the diet plan will fuel participants' martial arts journey...",
       "goal_achievement_years": 1,
-      "logo": "warriorsdojo_logo.png"
+      "logo": "/src/assets/Martial Arts.jpg"
     },
     {
       "id": 10,
@@ -204,7 +204,7 @@
       ],
       "diet_description": "Barre training requires a nourishing diet that supports lean muscle and flexibility. Participants will receive dietary guidance focused on balanced nutrition and proper hydration. Emphasizing nutrient-rich foods and flexibility-enhancing nutrients, the diet plan will complement participants' barre practice...",
       "goal_achievement_years": 0.25,
-      "logo": "barrebliss_logo.png"
+      "logo": "/src/assets/Barre.jpg"
     }
   ]
 }
