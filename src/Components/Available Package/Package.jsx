@@ -1,12 +1,14 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const Package = ({ data }) => {
   const {
+    id,
     logo,
     program_type,
     program_level,
     gym_company_name,
-    duration_weeks,
     cost,
     location,
   } = data;
@@ -17,9 +19,12 @@ const Package = ({ data }) => {
     setSelectedButtonIndex(index);
   };
 
+  const navigate = useNavigate();
+
   return (
-    <div className="border-2 border-dotted border-teal-500 rounded py-6 px-10">
+    <div className="border-2 border-dotted border-teal-500 bg-teal-500 bg-opacity-20 rounded py-6 px-10">
       <div>
+        <img src={logo} style={{ width: 150, height: 50 }} alt="" />
         <h1 className="text-2xl">{program_type}</h1>
         <p className="my-4">{gym_company_name}</p>
         <div>
@@ -41,7 +46,10 @@ const Package = ({ data }) => {
           <p>Cost: {cost[selectedButtonIndex]}$</p>
         </div>
 
-        <button>View Details</button>
+        {/* <Link to={`details/${id}`}>
+          <button>View Details</button>
+        </Link> */}
+        <button onClick={() => navigate(`/details/${id}`)}>View Details</button>
       </div>
     </div>
   );
