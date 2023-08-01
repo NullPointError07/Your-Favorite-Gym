@@ -8,7 +8,9 @@ import Statistics from "./Components/Statistics/Statistics.jsx";
 import AppliedPackages from "./Components/Applied Packages/AppliedPackages.jsx";
 import Blog from "./Components/Blog/Blog.jsx";
 import FrontPage from "./Components/FrontPage/FrontPage";
-import PackageDetails from "./Components/Available Package/PackageDetails";
+import PackageDetails, {
+  packageDetailsLoader,
+} from "./Components/Available Package/PackageDetails";
 
 const router = createBrowserRouter([
   {
@@ -21,9 +23,9 @@ const router = createBrowserRouter([
         loader: () => fetch("/data.json"),
       },
       {
-        path: "details/:id",
+        path: ":id",
         element: <PackageDetails></PackageDetails>,
-        loader: () => fetch("/data.json"),
+        loader: packageDetailsLoader,
       },
       {
         path: "Statistics",

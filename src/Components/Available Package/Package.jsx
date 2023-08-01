@@ -49,7 +49,7 @@ const Package = ({ data }) => {
         {/* <Link to={`details/${id}`}>
           <button>View Details</button>
         </Link> */}
-        <button onClick={() => navigate(`/details/${id}`)}>View Details</button>
+        <button onClick={() => navigate(`${id}`)}>View Details</button>
       </div>
     </div>
   );

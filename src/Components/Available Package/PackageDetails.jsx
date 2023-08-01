@@ -1,19 +1,43 @@
 import { useLoaderData, useParams } from "react-router-dom";
 
 const PackageDetails = () => {
-  const dataDetails = useLoaderData();
-  const data = dataDetails.fitness_programs;
-  console.log(data);
+  const { id } = useParams();
 
-  const paramsId = useParams();
-  const id = paramsId.id;
+  const details = useLoaderData();
 
   return (
     <div>
-      <h1>Placeholder Details for Package ID: {data.id}</h1>
-      {/* Render the details of the package with the given ID */}
+      <h1>
+        Gym Facilities:
+        <ol>
+          {details.included_features.map((features, index) => (
+            <li key={index}>
+              {index + 1}. {features}
+            </li>
+          ))}
+        </ol>
+      </h1>
+      <h1>Placeholder Details for Package ID: {details.id}</h1>
+      <h1>
+        Training Description: <p>{details.training_description}</p>
+      </h1>
+      <h1>
+        Diet Description: <p>{details.diet_description}</p>
+      </h1>
+      <h1>
+        Goal Achievement:
+        <p>Expected years {details.goal_achievement_years} Years</p>
+      </h1>
     </div>
   );
 };
 
 export default PackageDetails;
+
+// loader function
+
+export const packageDetailsLoader = async ({ params }) => {
+  const { id } = params;
+  const res = await fetch(`http://localhost:4044/fitness_programs/${id}`);
+  return res.json();
+};
