@@ -38,6 +38,8 @@ export default PackageDetails;
 
 export const packageDetailsLoader = async ({ params }) => {
   const { id } = params;
-  const res = await fetch(`http://localhost:4044/fitness_programs/${id}`);
+  const res = await fetch(
+    `https://gym-bros-data-nullpointerror07.vercel.app/programs/${id}`
+  );
   return res.json();
 };

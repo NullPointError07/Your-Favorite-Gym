@@ -20,7 +20,8 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <FrontPage></FrontPage>,
-        loader: () => fetch("/data.json"),
+        loader: () =>
+          fetch("https://gym-bros-data-nullpointerror07.vercel.app/programs"),
       },
       {
         path: ":id",
